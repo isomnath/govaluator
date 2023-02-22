@@ -2,7 +2,7 @@
 
 ---
 
-[![Workflow Status](https://github.com/isomnath/govaluator/actions/workflows/main.yml/badge.svg)]
+![Workflow Status](https://github.com/isomnath/govaluator/actions/workflows/main.yml/badge.svg)
 
 
 Govaluator is a data model agnostic state less in-memory rule engine library. Govaluator is designed to
