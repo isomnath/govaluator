@@ -1,0 +1,42 @@
+{
+  "id": "123",
+  "name": "Linear Rule",
+  "description": "Description - Linear Rule",
+  "remark": "",
+  "engine": "LINEAR",
+  "linear": {
+    "expression": "(({{.A}} && {{.B}}) || {{.C}})",
+    "criteria": [
+      {
+        "id": "1",
+        "alias": "A",
+        "comparator": "STATIC",
+        "static": {
+          "field_one": "parent.child_1.grand_child_1",
+          "operator": "EQUALS",
+          "value": 10
+        }
+      },
+      {
+        "id": "2",
+        "alias": "B",
+        "comparator": "DYNAMIC",
+        "dynamic": {
+          "field_one": "parent.child_1.grand_child_1",
+          "operator": "LESS_THAN",
+          "field_two": "parent.child_1.grand_child_2"
+        }
+      },
+      {
+        "id": "3",
+        "alias": "C",
+        "comparator": "STATIC",
+        "static": {
+          "field_one": "parent.child_1.grand_child_3",
+          "operator": "GREATER_THAN",
+          "value": 20
+        }
+      }
+    ]
+  }
+}
