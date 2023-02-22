@@ -1,7 +1,5 @@
 # Govaluator
 
----
-
 ![Workflow Status](https://github.com/isomnath/govaluator/actions/workflows/main.yml/badge.svg)
 
 
