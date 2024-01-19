@@ -1,7 +1,9 @@
 # Govaluator
 
 ![Workflow Status](https://github.com/isomnath/govaluator/actions/workflows/main.yml/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/isomnath/govaluator)](https://goreportcard.com/report/github.com/isomnath/govaluator)
 
+---
 
 Govaluator is a data model agnostic state less in-memory rule engine library. Govaluator is designed to
 work with any ```map[string]interface{}``` type as the data model. The data set can be evaluated against
